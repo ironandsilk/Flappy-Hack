@@ -25,14 +25,14 @@ const solanaMetadata = {
 const layerConfigurations = [
   {
     growEditionSizeTo: 5,
-    layersOrder: [
+    layersOrder : [
       { name: "Background" },
-      { name: "Eyeball" },
-      { name: "Eye color" },
-      { name: "Iris" },
-      { name: "Shine" },
-      { name: "Bottom lid" },
-      { name: "Top lid" },
+      { name: "Body" },
+      { name: "Eyes" },
+      { name: "Beak" },
+      { name: "Wings" },
+      { name: "Tail" },
+      { name: "Special Effects" }
     ],
   },
 ];

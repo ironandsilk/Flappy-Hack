@@ -24,22 +24,21 @@ const solanaMetadata = {
 // If you have selected Solana then the collection starts from 0 automatically
 const layerConfigurations = [
   {
-    growEditionSizeTo: 5,
+    growEditionSizeTo: 420,
     layersOrder : [
-      { name: "Background" },
-      { name: "Body" },
-      { name: "Eyes" },
-      { name: "Beak" },
-      { name: "Wings" },
-      { name: "Tail" },
-      { name: "Special Effects" }
+      { name: "beak" },
+      { name: "body" },
+      { name: "crap" },
+      { name: "eyes" },
+      { name: "headgear" },
+      { name: "wings" },
     ],
   },
 ];
 
 const shuffleLayerConfigurations = false;
 
-const debugLogs = false;
+const debugLogs = true;
 
 const format = {
   width: 512,

@@ -27,11 +27,11 @@ const layerConfigurations = [
     growEditionSizeTo: 420,
     layersOrder : [
       { name: "beak" },
-      { name: "body" },
       { name: "crap" },
-      { name: "eyes" },
       { name: "headgear" },
+      { name: "eyes" },
       { name: "wings" },
+      { name: "body" },
     ],
   },
 ];
@@ -41,8 +41,8 @@ const shuffleLayerConfigurations = false;
 const debugLogs = true;
 
 const format = {
-  width: 512,
-  height: 512,
+  width: 540,
+  height: 540,
   smoothing: false,
 };
 
